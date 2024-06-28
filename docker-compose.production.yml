@@ -19,6 +19,8 @@ services:
     volumes:
       - static:/backend_static
       - media:/app/media
+    depends_on:
+      - db
       
   frontend:
     image: khadakhan/kittygram_frontend
@@ -35,3 +37,6 @@ services:
     volumes:
       - static:/static
       - media:/app/media
+    depends_on:
+      - backend
+      - fronend
