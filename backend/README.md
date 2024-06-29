@@ -1,51 +1,39 @@
-### Как запустить проект:
+[![Main Kittygram workflow](https://github.com/khadakhan/kittygram_final/actions/workflows/main.yml/badge.svg)](https://github.com/khadakhan/kittygram_final/actions/workflows/main.yml)
 
-Клонировать репозиторий и перейти в него в командной строке:
+### О проекте:
+Kittygram это сервис разработанный для тех, у кого есть котики. В Kittygram каждый владелец котика может показать остальным зарегистрированным пользователям совего домашнего питомца. Для этого владелец котика должен:
+* зарегистрироваться
+* аутентифицироваться
+* нажать на кнопку "Добавить кота"
+* загрузить фотографию своего котика (опционально)
+* указать имя котика
+* указать год рождения котика
+* выбрать наиболее походящий цвет из палитры цветов
+* придумать и указать достижение своего котика (опционально)
 
-```
-git clone https://github.com/yandex-praktikum/kittygram_backend.git
-```
+Каждый владелец котика может указать несколько котиков, если у него дома котоферма. При желании владелец котика может удалять котика из сервиса или редактировать данные о котике.
 
-```
-cd kittygram_backend
-```
+### Технологии проекта:
+* Python
+* Django
+* DjangoRestFramework
+* PostgreSql
+* Gunicorn
+* Nginx
+* Git
+* GitHub
+* GitHubActions
 
-Cоздать и активировать виртуальное окружение:
+### Как развернуть проект на сервере: 
+Нужно:
+* ip адреc
+* пароль для подключения к серверу
+* Username от DockerHub
+* Пароль для подключения к DockerHub
 
-```
-python3 -m venv env
-```
+### Как заполнить env
+Нужно:
+* В директории kittygram_backend создать файл .env и указать в нем ...
+* В корне проекта создать файл .env и указать в нем ...
 
-* Если у вас Linux/macOS
-
-    ```
-    source env/bin/activate
-    ```
-
-* Если у вас windows
-
-    ```
-    source env/scripts/activate
-    ```
-
-```
-python3 -m pip install --upgrade pip
-```
-
-Установить зависимости из файла requirements.txt:
-
-```
-pip install -r requirements.txt
-```
-
-Выполнить миграции:
-
-```
-python3 manage.py migrate
-```
-
-Запустить проект:
-
-```
-python3 manage.py runserver
-```
+Автор проекта: [khadakhan](https://github.com/khadakhan/)
