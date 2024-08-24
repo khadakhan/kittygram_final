@@ -538,7 +538,7 @@ Automatic deployment.
 Sending a notification to a personal chat.
 
 # Instruments and stack
-#python #javascript #css #django #djangorestframework #REST API #bash #gunicorn #nginx #SSH #Docker # GitHub Actions
+#python #javascript #css #django #djangorestframework #REST API #bash #gunicorn #nginx #SSH #Docker #GitHub Actions
 
 # Author
 As an example, you can see the application at work at:
