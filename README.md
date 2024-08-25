@@ -105,7 +105,7 @@ Open a browser and make sure that the kittygram frontend is accessible at http:/
 Stop the container with the Ctrl+C shortcut or run docker container stop kittygram_frontend_test in a new terminal window. This will remove the container.
 
 ## Application architecture
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## PostgreSQL
 In the root of the project, create a .env file:
@@ -525,7 +525,7 @@ with the necessary values ​​in the project secrets on GitHub
 Add the Telegram account parameters to the secrets for sending the report:
 * in the TELEGRAM_TO variable, save the ID of your Telegram account. You can find out your ID from the Telegram bot @userinfobot. The bot will send notifications to the account with the specified ID;
 * in the TELEGRAM_TOKEN variable, save the token of your bot. You can get this token from the telegram bot @BotFather.
-![alt text](pipline-1.png)
+![alt text](image-2.png)
 
 Now your workflow consists of four phases:
 
