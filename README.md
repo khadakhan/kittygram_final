@@ -445,7 +445,7 @@ Another option is to create an empty docker-compose.production.yml file on the s
 
 Copy the .env file to the server, in the kittygram/ directory.
 
-Copy the .env file to the server, in the kittygram/backend/kittygram_backend directory with:
+Don't forget about secrets in .env file in the kittygram/backend/kittygram_backend directory with:
 
 * SECRET_KEY - секретный ключ для шифрования в Django.
 
